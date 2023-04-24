@@ -1,17 +1,39 @@
+@import url('https://fonts.googleapis.com/css2? family= Indie+Flower & display=swap');
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; 
+    font-family: 'Indie Flower', cursive;
 }
 
-nav {
+.nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color:#89909F;
+    border-bottom: 2px solid black;
 }
 
 ul {
     list-style: none;
     display: flex;
     gap: 15px;
+}
+.nav__link a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav__link a:hover{
+    color: black;
+    border-bottom: 7px solid black;
+
+}
+
+.logo{
+    width: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: 1px solid transparent;
+    border-radius: 110px;
 }
